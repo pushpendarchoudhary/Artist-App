@@ -21,10 +21,10 @@ python manage.py migrate
 # Start the development server
 python manage.py runserver
 
-USAGE AND FEATURES 
-Admin panel credentials
-username = admin
-password = #123Admin
+#USAGE AND FEATURES 
+      Admin panel credentials
+      username = admin
+      password = #123Admin
 
 # Use postman application to test the API endpoints 
 
