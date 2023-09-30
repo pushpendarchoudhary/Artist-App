@@ -22,8 +22,8 @@ python manage.py runserver
 
 # Usage And Features 
    * Admin panel credentials
-      username = admin
-      password = #123Admin
+      * username = admin
+      * password = #123Admin
 
 # Use Postman application to test the API endpoints 
 
