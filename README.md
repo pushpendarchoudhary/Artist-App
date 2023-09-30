@@ -28,7 +28,7 @@ python manage.py runserver
 # Use the Postman application to test the API endpoints 
  demo video
 
-https://github.com/pushpendarchoudhary/Artist-App/assets/116705484/01b33034-7397-4c28-9f65-a3034889aa36
+    https://github.com/pushpendarchoudhary/Artist-App/assets/116705484/01b33034-7397-4c28-9f65-a3034889aa36
 
 
 
