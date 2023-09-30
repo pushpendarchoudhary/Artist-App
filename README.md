@@ -28,8 +28,8 @@ password = #123Admin
 
 # Use postman application to test the API endpoints 
 
-1. Register a user
-      i. use the url POST- http://<your_localhost>/api/register
+# Register a user
+      1 use the url POST- http://<your_localhost>/api/register
      ii. In body tab check "raw" and select data type to "json"
     iii. use the following json data format to register a user 
          {
@@ -41,7 +41,7 @@ password = #123Admin
               "confirmpassword": "samplepassword8"
           }
      iv. after successfully registering you will get an output in body field with a message "success"
-2. Login a user
+# Login a user
     i. use the url POST- http://<your_localhost>/api/signin
    ii.  In body tab check "raw" and select data type to "json"
    iii. sample json data is
@@ -51,7 +51,7 @@ password = #123Admin
          }
    iv. On successfully logged in you will get an output in body tab containing "token" value copy that token value for further use
 
-3. Create a new work
+# Create a new work
     i. use url POST - http://<your_localhost>/api/works
    ii. In headers tab assign 'key= Authorization' and 'value = token <your_generated_token>'
    iii. In body tab use json data i.e 
@@ -65,9 +65,9 @@ password = #123Admin
 * for performing below tasks do contain  ('key= Authorization' and 'value = token <your_generated_token>)' in headers tab
 
   
-4. Retrieving a list of all works
+# Retrieving a list of all works
    i. use url GET - http://<your_local>/api/works
-5. Filtering using work_type 
+# Filtering using work_type 
    i. Use url GET - http://<your_local>/api/works?work_type=IG   # work_type can be IG , YT or Other 
-6. Searching using Artist Name 
+# Searching using Artist Name 
    i. Use url GET- http://<your_local>/api/works?artist=sampleuser8  # can use any username in place of sampleuser8
