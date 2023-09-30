@@ -6,20 +6,19 @@ A customized Artist API using Django RESTFramework. The API should allow users t
 
 Installation 
 # Clone the repository
-git clone https://github.com/pushpendarchoudhary/Artist-App.git
+      git clone https://github.com/pushpendarchoudhary/Artist-App.git
 
 # Change to the project directory
-cd your_project
+      cd your_project
 
 # Install dependencies
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 # Set up the database
-python manage.py make migrations
-python manage.py migrate
+      python manage.py migrate
 
 # Start the development server
-python manage.py runserver
+      python manage.py runserver
 
 #USAGE AND FEATURES 
       Admin panel credentials
