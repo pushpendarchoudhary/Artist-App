@@ -29,18 +29,18 @@ python manage.py runserver
 # Use postman application to test the API endpoints 
 
 # Register a user
-      1 use the url POST- http://<your_localhost>/api/register
-     ii. In body tab check "raw" and select data type to "json"
-    iii. use the following json data format to register a user 
-         {
-              "username": "sampleuser8",
-              "firstname": "John",
-              "lastname": "Doe",
-              "email": "sample8@example.com",
-              "password": "samplepassword8",
-              "confirmpassword": "samplepassword8"
-          }
-     iv. after successfully registering you will get an output in body field with a message "success"
+            URL - POST- http://<your_localhost>/api/register
+           * In body tab check "raw" and select data type to "json"
+           * use the following json data format to register a user 
+               {
+                    "username": "sampleuser8",
+                    "firstname": "John",
+                    "lastname": "Doe",
+                    "email": "sample8@example.com",
+                    "password": "samplepassword8",
+                    "confirmpassword": "samplepassword8"
+                }
+           * after successfully registering you will get an output in body field with a message "success"
 # Login a user
     i. use the url POST- http://<your_localhost>/api/signin
    ii.  In body tab check "raw" and select data type to "json"
