@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Artists List{% endblock %}
+
+{% block content %}
+    <h2>Artists List</h2>
+    <ul>
+        {% for artist in artists %}
+            <li>{{ artist.name }} - {{ artist.user.username }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Works List{% endblock %}
+
+{% block content %}
+<h2>Works List</h2>
+  
+<!-- Display Works in a Table -->
+<table>
+  <thead>
+    <tr>
+      <th>Link</th>
+      <th>Work Type</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for work in works %}
+      <tr>
+        <td>{{ work.link }}</td>
+        <td>{{ work.work_type }}</td>
+        <td>
+          <a href="{% url 'edit-work' work.id %}">Edit</a> |
+          <a href="{% url 'delete-work' work.id %}">Delete</a>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<!-- Option to Create New Work -->
+<a href="{% url 'create-work' %}">Create New Work</a>
+{% endblock %}

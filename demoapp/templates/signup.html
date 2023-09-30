@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <h2>Register</h2>
+    <form action="/api/register" method="post">
+        {% csrf_token %}
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="firstname">firstname:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        <label for="lastname">lastname</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirmpassword">Confirm password:</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Register</button>
+    </form>
+{% endblock %}
