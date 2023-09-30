@@ -25,7 +25,12 @@ python manage.py runserver
    * username = admin
    * password = #123Admin
 
-# Use Postman application to test the API endpoints 
+# Use the Postman application to test the API endpoints 
+ demo video
+
+https://github.com/pushpendarchoudhary/Artist-App/assets/116705484/01b33034-7397-4c28-9f65-a3034889aa36
+
+
 
 # Register a user
             URL - POST- http://<your_localhost>/api/register
